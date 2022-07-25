@@ -1,0 +1,58 @@
+{
+  "token": "",
+  "prefix": "-",
+  "uri": "",
+  "logo": "",
+
+  "settings": {
+    "freelancer_role": "996485939180355694",
+    "manager_role": "996483503216668783",
+    "desc": "• By creating a ticket you agree to our #terms-of-service",
+    "job_channel": "996480974558867497",
+    "rate_channel": "996475994703667290",
+    "ticket_prompts": [
+      {
+        "name": "Commission",
+        "prefix": "ticket",
+        "emoji": "🛒",
+        "job": true,
+        "desc": "If you want to create a Commission , React with 🛒\n \n• Once creating a commission it will be sent out to our freelancers for quotes and questions\n",
+        "category": "996480796988809266",
+        "questions": [
+          "Please ping what role are you requesting help from.",
+          "What is your budget?",
+          "Could you please provide a detailed description of what you want?",
+          "When is your deadline for this order?\n If you dont have a deadline type No Deadline",
+          "Have you read our terms of service located in #terms-of-service?"
+        ]
+      },
+      {
+        "name": "Application",
+        "prefix": "apply",
+        "emoji": "📋",
+        "job": false,
+        "desc": "If you want to create an Application , React with 📋 \n \n• Applications can take from 1-12 hours to be reviewed\n \n• Pinging a Application Reviewer will deny your application directly\n",
+        "category": "997194318160867430",
+        "questions": [
+          "Please ping what role/s are you applying for.",
+          "What is your age?",
+          "Do you have any previous experience with your role/s?",
+          "Please link your portfolio",
+          "What is your timezone?"
+        ]
+      },
+      {
+        "name": "Support",
+        "prefix": "support",
+        "emoji": "📨",
+        "job": false,
+        "desc": "If you want to to create a Support ticket , React with 📨\n \n• Support tickets can take from 1-12 hours to be reviewed\n",
+        "category": "998020275977322537",
+        "questions": [
+        "Please explain what we can help you with.",
+        "What is your timezone?"
+        ]
+      }
+    ]
+  }
+}

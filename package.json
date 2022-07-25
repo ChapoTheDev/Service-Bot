@@ -1,0 +1,20 @@
+{
+  "name": "newcom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.11.0",
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "discord.js": "^13.5.0",
+    "monk": "^7.3.4",
+    "node-cron": "^3.0.0"
+  },
+  "nodeVersion": "16.6.0"
+}
